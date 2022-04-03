@@ -47,34 +47,23 @@ body {
 
 }
 /*Second stretched image text*/
-.thirdcon{
+.secondcon{
     position: relative;
 }
-.righttxtH{
+.forumtxt{
     position: absolute;
-    top: 1500px;
-    right: 160px;
-    color: white;
-    font-size: 30px;
-    font-family: "Trebuchet MS";
-}
-.righttxt {
-    position: absolute;
-    top: 1640px;
+    top: 150px;
     right: 16px;
+    max-width: 600px;
     color: white;
-    font-size: 20px;
-    font-family: "Trebuchet MS";
 }
 button {
-    position: absolute;
-    top: 1800px;
-    right: 320px;
     background-color: black;
     color: white;
     padding: 10px;
     border-radius: 25px;
     font-weight: bold;
+    margin-left: 220px;
 }
 /*Partners*/
 .thirdcon {

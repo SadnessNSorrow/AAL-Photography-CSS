@@ -18,9 +18,9 @@ body {
 .logo {
     height: 125px;
     width: 125px;
+    margin-left: 100px;
 }
-/*Header-end
-Home-body-start*/
+/*Home-body-start*/
 .simg { /*Stretched img*/
     display: block;
     width: 100vw;
@@ -79,7 +79,6 @@ button {
     text-align: center;
     font-size: 42px;
 }
-
 /*Footer-start*/
 footer {
     margin-top: 70px;
@@ -96,4 +95,13 @@ a:link, a:visited {
     text-decoration: none;
     color: white;
 }
+/*About_Page-start*/
+.abouttxt {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.headerAbouttxt{
+    max-width: 600px;
 
+}

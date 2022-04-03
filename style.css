@@ -47,6 +47,9 @@ body {
 
 }
 /*Second stretched image text*/
+.thirdcon{
+    position: relative;
+}
 .righttxtH{
     position: absolute;
     top: 1500px;
@@ -100,8 +103,39 @@ a:link, a:visited {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-bottom: 20px;
 }
 .headerAbouttxt{
     max-width: 600px;
-
+}
+/*Main About information*/
+.aboutMain {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.aboutMainTxt{
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+.profileimg{
+    height: 450px;
+    width: 400px;
+    margin-left: 100px;
+}
+/*Second stretched image in About page*/
+.quote{
+    position: absolute;
+    top: 100px;
+    right: 16px;
+    max-width: 400px;
+    font-size: 30px;
+    color: white;
+}
+.aboutFooter{
+    position: relative;
+    margin-bottom: -70px;
 }

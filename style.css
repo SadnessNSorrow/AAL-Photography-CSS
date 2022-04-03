@@ -13,6 +13,7 @@ body {
     gap: 40px;
     list-style-type: none;
     padding-right: 250px;
+    color: black;
 }
 .logo {
     height: 125px;
@@ -33,7 +34,7 @@ Home-body-start*/
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 50px;
+    font-size: 44px;
     font-family: "Bebas Neue";
 }
 /*Paragraph text*/
@@ -78,14 +79,11 @@ button {
     text-align: center;
     font-size: 42px;
 }
-.partners {
-    height: 100px;
-}
+
 /*Footer-start*/
 footer {
     margin-top: 70px;
     background-color: black;
-    color: white;
     padding: 20px;
 }
 .social {
@@ -93,5 +91,9 @@ footer {
     justify-content: center;
     list-style-type: none;
     gap: 40px;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
 }
 

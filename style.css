@@ -1,6 +1,7 @@
 body {
     font-family: "Quicksand"; font-size: 22px;
     margin: 0;
+    background-color: whitesmoke;
 }
 /*Header-start*/
 .header {
@@ -127,4 +128,23 @@ a:link, a:visited {
 .aboutFooter{
     position: relative;
     margin-bottom: -70px;
+}
+/*Gallery_Page-start*/
+.categories {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+.catimg {
+    opacity: 80%;
+}
+.cattxt{
+    position: absolute;
+    display: flex;
+    color: white;
+    font-size: 57px;
+    gap: 125px;
+    text-shadow: #000 0px 0px 3px;;
 }

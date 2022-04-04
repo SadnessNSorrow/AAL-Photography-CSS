@@ -1,9 +1,12 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Quicksand"; font-size: 22px;
     margin: 0;
     background-color: whitesmoke;
 }
-/*Header-start*/
+/*==================================================*Header_declaration*==============================================*/
 .header {
     display: flex;
     justify-content: space-between;
@@ -21,24 +24,38 @@ body {
     width: 125px;
     margin-left: 100px;
 }
-/*Home-body-start*/
-.simg { /*Stretched img*/
-    display: block;
+/*==================================================*Home_page*=======================================================*/
+/*Slideshow*/
+.slideshow-img {
+    position: relative;
     width: 100vw;
     height: 60vh;
     object-fit: cover;
 }
-/*Text in stretched img center*/
+.slide {
+    display: none;
+}
+.slideshow-container{
+    position: relative;
+}
+
+.simg {
+    width: 100vw;
+    height: 60vh;
+    object-fit: cover;
+}
+/*Text in slideshow img center*/
 .centered {
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
     font-size: 44px;
     font-family: "Bebas Neue";
 }
-/*Paragraph text*/
+/*Slideshow-end*/
+/*Paragraph after slideshow*/
 .text {
     text-align: center;
     color: black;
@@ -47,7 +64,7 @@ body {
     margin-bottom: 300px;
 
 }
-/*Second stretched image text*/
+/*Stretched image with link to forum*/
 .secondcon{
     position: relative;
 }
@@ -72,7 +89,7 @@ button {
     text-align: center;
     font-size: 42px;
 }
-/*Footer-start*/
+/*==================================================*Footer_declaration*==============================================*/
 footer {
     margin-top: 70px;
     background-color: black;
@@ -88,7 +105,8 @@ a:link, a:visited {
     text-decoration: none;
     color: white;
 }
-/*About_Page-start*/
+/*==================================================*About_page*======================================================*/
+/*Text explaining category*/
 .abouttxt {
     display: flex;
     justify-content: space-around;
@@ -98,7 +116,7 @@ a:link, a:visited {
 .headerAbouttxt{
     max-width: 600px;
 }
-/*Main About information*/
+/*Main About information in the middle*/
 .aboutMain {
     display: flex;
     justify-content: space-between;
@@ -116,7 +134,7 @@ a:link, a:visited {
     width: 400px;
     margin-left: 100px;
 }
-/*Second stretched image in About page*/
+/*Second stretched image in About page with quote*/
 .quote{
     position: absolute;
     top: 100px;
@@ -129,7 +147,7 @@ a:link, a:visited {
     position: relative;
     margin-bottom: -70px;
 }
-/*Gallery_Page-start*/
+/*==================================================*Gallery_page*====================================================*/
 .categories {
     position: relative;
     display: flex;
@@ -137,6 +155,7 @@ a:link, a:visited {
     gap: 15px;
     align-items: center;
 }
+/*Category image*/
 .catimg {
     opacity: 80%;
 }
@@ -148,7 +167,7 @@ a:link, a:visited {
     gap: 125px;
     text-shadow: #000 0px 0px 3px;;
 }
-/*Iceland_Page-start*/
+/*==================================================*Category_page*====================================================*/
 .grid {
     display: flex;
     flex-wrap: wrap;

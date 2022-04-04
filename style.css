@@ -149,13 +149,13 @@ a:link, a:visited {
     text-shadow: #000 0px 0px 3px;;
 }
 /*Iceland_Page-start*/
-.icelandgrid {
+.grid {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     justify-content: space-evenly;
 }
-.icelandImg{
+.gridImg{
     max-height: 400px;
     max-width: 400px;
     margin-bottom: 5px;

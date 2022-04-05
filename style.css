@@ -5,6 +5,12 @@ body {
     font-family: "Quicksand"; font-size: 22px;
     margin: 0;
     background-color: whitesmoke;
+    -ms-overflow-style: none; /*Hiding scrollbar for better looks*/
+    scrollbar-width: none;
+    overflow: scroll;
+}
+body::-webkit-scrollbar{
+    display: none;
 }
 /*==================================================*Header_declaration*==============================================*/
 .header {
@@ -45,7 +51,7 @@ body {
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-    font-size: 44px;
+    font-size: 40px;
     font-family: "Bebas Neue";
 }
 /*Slideshow-end*/
